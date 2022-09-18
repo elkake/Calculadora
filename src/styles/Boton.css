@@ -1,0 +1,50 @@
+.button {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.533);
+  
+  display: flex;
+  height: 2em;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5em;
+  cursor: pointer;
+  flex: 1 1;
+  margin: 0.25em;
+  user-select: none;
+}
+
+.notNumber {
+  background-color: #600;
+  color: #fff;
+}
+
+.button:hover {
+  background-color: #666;
+  color: #000;
+}
+
+.notNumber:hover {
+  background-color: #f00;
+}
+
+.boton-clear {
+  height: 2em;
+  font-size: 1.6em;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5em;
+  border: 2px solid #fff;
+  border-radius: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: seashell;
+}
+
+.boton-clear:hover {
+  background-color: #0603;
+  color: #fff;
+}
